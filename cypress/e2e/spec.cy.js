@@ -1,11 +1,7 @@
 describe('spec', () => {
-
+  const url = "example"
   before(function () {
     cy.log("first")
-  })
-
-  beforeEach(() => {
-    cy.log("second")
   })
 
   afterEach(function () {
@@ -16,18 +12,20 @@ describe('spec', () => {
     cy.log("last")
   })
   
-  it('passes', () => {
-    var url = "example"
+  it('should passes', () => {
     cy.visit(`https://${url}.cypress.io`)
+    cy.get('.dropdown-toggle').click()
+    cy.contains('a', 'Querying').click()
+    cy.get('h1').should('have.text', 'Querying')
   })
 
-  it.skip('scope', () => {
+  it('scope', () => {
     cy.visit(`https://${url}.cypress.io`)
   })
 
   it('types', () => {
     var obj = {
-      url: "example"
+      "url": "example"
     }
     cy.visit(`https://${obj.url}.cypress.io`)
   })
