@@ -12,3 +12,9 @@ https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-le
 1. Review your setup
 1. Jquery get
 1. cross-domain scenarios
+
+### task
+1. login to bbc with `superprof123test@gmail.com` & `Superprof123`
+
+### useful links
+[Cypress Multi Domains](https://www.cypress.io/blog/2022/04/25/cypress-9-6-0-easily-test-multi-domain-workflows-with-cy-origin/), [Marie Drake's blog](https://www.mariedrake.com/post/testing-multiple-domains-with-cypress)
