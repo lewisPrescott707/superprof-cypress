@@ -13,6 +13,11 @@ https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-le
 1. Jquery get
 1. cross-domain scenarios
 
+## Lesson 3
+1. Review Jquery Selector practice
+1. Explain Cross domain example
+1. Task to login to BBC
+
 ### task
 1. login to bbc with `superprof123test@gmail.com` & `Superprof123`
 
