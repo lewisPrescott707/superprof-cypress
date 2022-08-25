@@ -18,6 +18,23 @@ https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-le
 1. Explain Cross domain example
 1. Task to login to BBC
 
+## Lesson 4
+1. Review login task
+1. Explain cy.task
+1. Task to query database (dynamics)
+```
+host: db4free.net 3306
+Database: superprof
+Username: superprof
+Email: prescottlewis707@gmail.com
+
+Host: sql8.freesqldatabase.com
+Database name: sql8514693
+Database user: sql8514693
+Database password: dhgNFmzabM
+Port number: 3306
+```
+
 ### task
 1. login to bbc with `superprof123test@gmail.com` & `Superprof123`
 
